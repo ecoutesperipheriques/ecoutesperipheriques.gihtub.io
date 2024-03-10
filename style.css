@@ -1,14 +1,14 @@
 @font-face {
   font-family: 'Avara';
- src: url(https://ecoutesperipheriques.fr/font/Avara-Bold.otf) format("opentype")
+ src: url(https://ecoutesperipheriques.github.io/font/Avara-Bold.otf) format("opentype")
 }
 
 body, html {
   margin: 0;
   padding: 0;
   word-break: keep-all;
-  background-color: ghostwhite;
-  color: black;
+  background-color: WhiteSmoke;
+  color: DarkSlateBlue;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   font-family: Avara, sans-serif;
@@ -65,26 +65,26 @@ a{
    z-index: 9999;
 }
 a:link {
-  color: ghostwhite;
-  background-color: black;
+  color: WhiteSmoke;
+  background-color: DarkSlateBlue;
   text-decoration: none;
 }
 
 a:visited {
-  color: ghostwhite;
-  background-color: black;
+  color: WhiteSmoke;
+  background-color: DarkSlateBlue;
   text-decoration: none;
 }
 
 a:hover {
-  color: ghostwhite;
-  background-color: black;
+  color: WhiteSmoke;
+  background-color: DarkSlateBlue;
   text-decoration: none;
 }
 
 a:active {
-  color: ghostwhite;
-  background-color: black;
+  color: WhiteSmoke;
+  background-color: DarkSlateBlue;
   text-decoration: none;
 }
 ::-moz-selection {
@@ -106,8 +106,8 @@ a:active {
   margin-top: 24px;
   margin-left: 12px;
   position: fixed;
-  mix-blend-mode: difference;
-  color: lightgoldenrodyellow;
+  mix-blend-mode: exclusion;
+  color: WhiteSmoke;
   z-index: 999;
   cursor: pointer;
 }
@@ -117,7 +117,7 @@ a:active {
   -webkit-justify-content: space-between;
   justify-content: space-between;
   flex-wrap: wrap;
-  //border-bottom: dotted lightgray;
+  /*border-bottom: dotted lightgray;*/
   padding: 5px 5px 5px 5px;
   font-size: 1em;
   border-top: dotted lightgray;
@@ -125,7 +125,7 @@ a:active {
 .list{
   list-style: none;
   font-size: 0.8em;
-  margin-bottom: 3vw;
+  /*margin-bottom: 3vw;*/
 }
 
 .logo{
@@ -166,8 +166,8 @@ a:active {
   min-width: 350px;
 }
 .subfolder{
-  color: ghostwhite;
-  background-color: black;
+  color: WhiteSmoke;
+  background-color: DarkSlateBlue;
   margin-bottom: 3vw;
 }
 .gradation{
