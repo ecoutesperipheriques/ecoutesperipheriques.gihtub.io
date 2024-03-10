@@ -1,0 +1,182 @@
+@font-face {
+  font-family: 'Avara';
+ src: url(https://ecoutesperipheriques.fr/font/Avara-Bold.otf) format("opentype")
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  word-break: keep-all;
+  background-color: ghostwhite;
+  color: black;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-family: Avara, sans-serif;
+  line-height: 1.2;
+  word-break: keep-all;
+  cursor: default;
+  list-style: none;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+::-webkit-details-marker {
+  display:none;
+}
+summary{
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+summary:hover{
+   margin-left: 0;
+    margin-right: 0;
+}
+img{
+  flex: 0 0 auto;
+  height: 10em;
+  image-rendering: optimizeSpeed;
+    image-rendering: -moz-crisp-edges;         /* Firefox */
+    image-rendering:   -o-crisp-edges;         /* Opera */
+    image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
+    image-rendering: crisp-edges;
+}
+img:hover {
+  transform: scale(1.25);
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  cursor: crosshair;
+}
+.iframebox {
+  position: relative;
+  padding-bottom: 56.25%;
+}
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;  
+  background-color: lightgoldenrodyellow;
+}
+a{
+   z-index: 9999;
+}
+a:link {
+  color: ghostwhite;
+  background-color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: ghostwhite;
+  background-color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: ghostwhite;
+  background-color: black;
+  text-decoration: none;
+}
+
+a:active {
+  color: ghostwhite;
+  background-color: black;
+  text-decoration: none;
+}
+::-moz-selection {
+   background: lightgray;
+}
+::selection {
+   background: lightgray;
+}
+.container{
+  margin-top: 5%;
+  height: auto;
+  position: absolute;
+  left: 15%;
+  transform: translateX(-15%);
+  top: 6em;
+}
+.header{
+  font-size: 3.5em;
+  margin-top: 24px;
+  margin-left: 12px;
+  position: fixed;
+  mix-blend-mode: difference;
+  color: lightgoldenrodyellow;
+  z-index: 999;
+  cursor: pointer;
+}
+.line{
+  display: flex;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  //border-bottom: dotted lightgray;
+  padding: 5px 5px 5px 5px;
+  font-size: 1em;
+  border-top: dotted lightgray;
+}
+.list{
+  list-style: none;
+  font-size: 0.8em;
+  margin-bottom: 3vw;
+}
+
+.logo{
+  height: 1em;
+  filter: invert(100%);
+}
+.text{
+  width: 70%;
+  text-align: justify;
+  font-size: 0.8em;
+  margin-bottom: 3vw;
+}
+
+.gallery{
+  display: inline-flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 3vw;
+}
+.iso{
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  margin-bottom: 3vw;
+}
+.midi{
+  margin-bottom: 3vw;
+  z-index: -9;
+}
+.videotext{
+  width: 100%;
+  text-align: justify;
+  font-size: 0.8em;
+  margin-bottom: 3vw;
+}
+
+.audio{
+  width: 60vw;
+  min-width: 350px;
+}
+.subfolder{
+  color: ghostwhite;
+  background-color: black;
+  margin-bottom: 3vw;
+}
+.gradation{
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100vw;
+  height: 15px;
+  z-index: 999;
+  background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1));
+}
