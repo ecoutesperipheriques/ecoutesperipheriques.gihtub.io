@@ -102,7 +102,7 @@ a:active {
   top: 6em;
 }
 .header{
-  font-size: 3.5em;
+  font-size: 6em;
   margin-top: 24px;
   margin-left: 12px;
   position: fixed;
@@ -119,7 +119,7 @@ a:active {
   flex-wrap: wrap;
   /*border-bottom: dotted lightgray;*/
   padding: 5px 5px 5px 5px;
-  font-size: 1em;
+  font-size: 1.8em;
   border-top: dotted lightgray;
 }
 .list{
@@ -135,7 +135,7 @@ a:active {
 .text{
   width: 70%;
   text-align: justify;
-  font-size: 0.8em;
+  font-size: 1.2em;
   margin-bottom: 3vw;
 }
 
