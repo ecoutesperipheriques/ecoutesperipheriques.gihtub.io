@@ -135,7 +135,7 @@ a:active {
 }
 .text{
   width: 70%;
-  text-align: justify;
+ /* text-align: justify; */
   font-size: 1.2em;
   margin-bottom: 3vw;
 }
